@@ -1,0 +1,379 @@
+<nav
+  style="background-color: #5673ff"
+  class="bg-white border-gray-200 dark:bg-indigo-400 fixed top-0 w-full z-[1000]"
+>
+  <div
+    class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-8"
+  >
+    <a href="#" class="flex items-center">
+      <svg
+        style="padding-right: 10%"
+        class="w-6 h-6 text-gray-800 dark:text-white"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 20 20"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M10 3V1m0 18v-2M5.05 5.05 3.636 3.636m12.728 12.728L14.95 14.95M3 10H1m18 0h-2M5.05 14.95l-1.414 1.414M16.364 3.636 14.95 5.05M14 10a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"
+        ></path>
+      </svg>
+      <span
+        class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white"
+        >IoT</span
+      >
+    </a>
+    <button
+      data-collapse-toggle="navbar-multi-level"
+      type="button"
+      class="inline-flex items-center p-2 w-10 h-10 justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600"
+      aria-controls="navbar-multi-level"
+      aria-expanded="false"
+    >
+      <span class="sr-only">Open main menu</span>
+      <svg
+        class="w-5 h-5"
+        aria-hidden="true"
+        xmlns="http://www.w3.org/2000/svg"
+        fill="none"
+        viewBox="0 0 17 14"
+      >
+        <path
+          stroke="currentColor"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-width="2"
+          d="M1 1h15M1 7h15M1 13h15"></path>
+      </svg>
+    </button>
+    <div class="hidden w-full md:block md:w-auto" id="navbar-multi-level">
+      <ul
+        style="background-color: #5673ff"
+        class="flex flex-col font-medium p-8 md:p-0 mt-8 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 md:mt-0 md:border-0 md: dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+      >
+        <li>
+          <button
+            id="dropdownNavbarLink"
+            data-dropdown-toggle="dropdownNavbar"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+          >
+            Inicio
+            <svg
+              class="w-2.5 h-2.5 ml-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"></path>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div
+            style="background-color: #5673ff"
+            id="dropdownNavbar"
+            class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          >
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton"
+            >
+              <li>
+                <a
+                  href="#DefinicionIoT"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Definición IoT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#IntroduccionLaAgronomia"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Introducción a la agronomía</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button
+            id="dropdownNavbarLinkFundamentos"
+            data-dropdown-toggle="dropdownNavbarFundamentos"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+          >
+            Fundamentos
+            <svg
+              class="w-2.5 h-2.5 ml-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"></path>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div
+            style="background-color: #5673ff"
+            id="dropdownNavbarFundamentos"
+            class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          >
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton"
+            >
+              <li>
+                <a
+                  href="#IoTAplicacion"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >IoT y su aplicación</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#AgriculturaModerna"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Agricultura moderna</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#IoTAplicaciones"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >IoT y su aplicación en la agronomía</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button
+            id="dropdownNavbarLinkSensoresDispositivos"
+            data-dropdown-toggle="dropdownNavbarSensoresDispositivos"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+          >
+            Sensores y dispositivos
+            <svg
+              class="w-2.5 h-2.5 ml-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"></path>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div
+            style="background-color: #5673ff"
+            id="dropdownNavbarSensoresDispositivos"
+            class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          >
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton"
+            >
+              <li>
+                <a
+                  href="#tiposDeSensores"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Tipos de sensores utilizados en la agricultura</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#ventajasDeMonitorizacion"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Ventajas de monitorización en tiempo real</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button
+            id="dropdownNavbarLinkAgriculturaDePrecision"
+            data-dropdown-toggle="dropdownNavbarAgriculturaDePrecision"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+          >
+            Agricultura de precisión
+            <svg
+              class="w-2.5 h-2.5 ml-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"></path>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div
+            style="background-color: #5673ff"
+            id="dropdownNavbarAgriculturaDePrecision"
+            class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          >
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton"
+            >
+              <li>
+                <a
+                  href="#agriculturaDePrecision"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Agricultura de precisión y Optimización</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#estudioDeCasos"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Estudio de casos sobre cómo la IoT ha mejorado la eficiencia
+                  en la producción.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button
+            id="dropdownNavbarLinkGestionDeRiego"
+            data-dropdown-toggle="dropdownNavbarGestionDeRiego"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+          >
+            Gestión de Riego
+            <svg
+              class="w-2.5 h-2.5 ml-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"></path>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div
+            style="background-color: #5673ff"
+            id="dropdownNavbarGestionDeRiego"
+            class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          >
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton"
+            >
+              <li>
+                <a
+                  href="#gestionderiego"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Importancia de la gestión eficiente del riego en la
+                  agricultura.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#sistemasInteligentes"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Sistemas de riego inteligente basados en IoT</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#beneficiosEconomicos"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Beneficios económicos y ambientales de la gestión del riego
+                  basada en IoT.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li>
+          <button
+            id="dropdownNavbarLinkControlDePlagas"
+            data-dropdown-toggle="dropdownNavbarControlDePlagas"
+            class="flex items-center justify-between w-full py-2 pl-3 pr-4 text-gray-700 border-b border-gray-100 hover:bg-gray-50 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:border-gray-700 dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+          >
+            Monitoreo de plagas
+            <svg
+              class="w-2.5 h-2.5 ml-2.5"
+              aria-hidden="true"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 10 6"
+            >
+              <path
+                stroke="currentColor"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+                stroke-width="2"
+                d="m1 1 4 4 4-4"></path>
+            </svg>
+          </button>
+          <!-- Dropdown menu -->
+          <div
+            style="background-color: #5673ff"
+            id="dropdownNavbarControlDePlagas"
+            class="z-10 hidden font-normal divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
+          >
+            <ul
+              class="py-2 text-sm text-gray-700 dark:text-gray-400"
+              aria-labelledby="dropdownLargeButton"
+            >
+              <li>
+                <a
+                  href="#sensoresYCamaras"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Uso de sensores y cámaras.</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#identificacionYPrevencion"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Cómo la IoT ayuda en la identificación y prevención de brotes</a
+                >
+              </li>
+              <li>
+                <a
+                  href="#beneficiosEconomicos"
+                  class="block px-4 py-2 hover:bg-gray-100 dark:hover:bg-gray-600 dark:hover:text-white"
+                  >Reducción del uso de productos químicos.</a
+                >
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>

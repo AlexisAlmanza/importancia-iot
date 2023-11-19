@@ -1,0 +1,213 @@
+---
+import Layout from "../layouts/Layout.astro";
+import CarouselControlDePlagas from "./CarouselControlDePlagas.astro";
+---
+
+<Layout title="controlDePlagas">
+  <script
+    is:inline
+    src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/1.8.0/flowbite.min.js"
+  ></script>
+  <main id="home">
+    <div
+      class="flex flex-col items-center justify-center space-y-4 mx-10 mt-14 mb-4"
+    >
+      <div class="text-white">
+        <h1 class="text-2xl font-bold mb-4" id="sensoresYCamaras">
+          Uso de sensores y cámaras.
+        </h1>
+        <div class="bg-transparent text-justify">
+          <p class="text-2xl">
+            En la era actual de la agricultura inteligente, la convergencia de
+            la Internet de las cosas (IoT) con sensores avanzados y cámaras ha
+            revolucionado la forma en que los agricultores monitorean y
+            gestionan sus cultivos. Estos dispositivos conectados permiten una
+            recopilación de datos en tiempo real, brindando una visión detallada
+            del entorno agrícola y permitiendo una toma de decisiones más
+            precisa. Aquí se exploran las funciones y beneficios de los sensores
+            y cámaras en la agricultura impulsada por la IoT.
+          </p>
+        </div>
+      </div>
+
+      <div class="text-white">
+        <h3 class="text-2xl font-bold mb-4">Sensores inteligentes</h3>
+        <div class="bg-transparent text-justify">
+          <p class="text-2xl">
+            Los sensores desempeñan un papel fundamental en la detección
+            temprana de cambios en el entorno agrícola. Estos dispositivos,
+            distribuidos estratégicamente en el campo, capturan datos clave,
+            como temperatura, humedad, niveles de nutrientes del suelo y otros
+            indicadores relevantes. La IoT facilita la integración de estos
+            datos en una plataforma centralizada, donde los agricultores pueden
+            acceder a información en tiempo real sobre las condiciones de
+            cultivo.
+          </p>
+        </div>
+      </div>
+      <div class="text-white">
+        <div class="bg-transparent text-justify">
+          <ul class="text-2xl list-disc">
+            <li>
+              Detección Precisa de Plagas y Enfermedades: Los sensores pueden
+              identificar signos tempranos de plagas o enfermedades, permitiendo
+              una intervención rápida y específica.
+            </li>
+            <li>
+              Optimización de Recursos: Al monitorear variables como la humedad
+              del suelo, los agricultores pueden ajustar de manera eficiente los
+              niveles de riego, evitando el desperdicio de agua y optimizando el
+              uso de recursos.
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="text-white">
+        <h3 class="text-2xl font-bold mb-4">
+          Cámaras y Dispositivos de Monitoreo Visual
+        </h3>
+        <div class="bg-transparent text-justify">
+          <p class="text-2xl">
+            La implementación de cámaras y otros dispositivos visuales en la
+            agricultura ha mejorado significativamente la capacidad de observar
+            y evaluar el estado de los cultivos. Estos dispositivos capturan
+            imágenes y videos de alta resolución, proporcionando una visión
+            detallada que va más allá de lo que los ojos humanos pueden
+            percibir.
+          </p>
+        </div>
+      </div>
+      <div class="text-white">
+        <div class="bg-transparent text-justify">
+          <ul class="text-2xl list-disc">
+            <li>
+              Detección Visual de Problemas: Las cámaras pueden identificar
+              patrones visuales asociados con enfermedades o deficiencias
+              nutricionales, permitiendo respuestas rápidas y precisas.
+            </li>
+            <li>
+              Seguimiento del Desarrollo de Cultivos: Las imágenes a lo largo
+              del tiempo permiten a los agricultores realizar un seguimiento del
+              crecimiento de los cultivos y evaluar la efectividad de las
+              prácticas agrícolas.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <CarouselControlDePlagas />
+
+      <div class="text-white">
+        <h1 class="text-2xl font-bold mb-4" id="identificacionYPrevencion">
+          Cómo la IoT ayuda en la identificación y prevención de brotes.
+        </h1>
+        <div class="bg-transparent text-justify">
+          <p class="text-2xl">
+            La implementación de sensores y dispositivos conectados ofrece una
+            infraestructura tecnológica que transforma la forma en que
+            monitoreamos y respondemos a condiciones que podrían propiciar
+            enfermedades y plagas.
+          </p>
+        </div>
+      </div>
+      <div class="text-white">
+        <h3 class="text-2xl font-bold mb-4">
+          Detección Temprana con Sensores Ambientales
+        </h3>
+        <div class="bg-transparent text-justify">
+          <p class="text-2xl">
+            La presencia de sensores ambientales permite una vigilancia
+            constante de condiciones críticas en el entorno agrícola, como
+            temperatura y humedad. La IoT facilita la detección temprana de
+            cambios anómalos que podrían indicar la presencia de patógenos o
+            condiciones propicias para la propagación de enfermedades.
+          </p>
+        </div>
+      </div>
+      <div class="text-white">
+        <h3 class="text-2xl font-bold mb-4">
+          Monitoreo en Tiempo Real con Dispositivos Remotos
+        </h3>
+        <div class="bg-transparent text-justify">
+          <p class="text-2xl">
+            Cámaras y sensores específicos, distribuidos estratégicamente,
+            proporcionan imágenes y datos en tiempo real. Esto habilita el
+            monitoreo continuo de áreas propensas a brotes, permitiendo
+            respuestas inmediatas ante la detección de cualquier problema.
+          </p>
+        </div>
+      </div>
+      <iframe
+        width="560"
+        height="315"
+        class="centered-video"
+        src="https://www.youtube.com/embed/omTcXXVtlX0"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      >
+      </iframe>
+    </div>
+  </main>
+</Layout>
+
+<style>
+  main {
+    margin: auto;
+    width: 100%;
+    color: white;
+    font-size: 20px;
+    line-height: 1.6;
+  }
+  .astro-a {
+    position: absolute;
+    top: -32px;
+    left: 50%;
+    transform: translatex(-50%);
+    width: 220px;
+    height: auto;
+    z-index: -1;
+  }
+  h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 1;
+    text-align: center;
+    margin-bottom: 1em;
+  }
+  .text-gradient {
+    background-image: var(--accent-gradient);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-size: 400%;
+    background-position: 0%;
+  }
+  .instructions {
+    margin-bottom: 2rem;
+    border: 1px solid rgba(var(--accent-light), 25%);
+    background: linear-gradient(
+      rgba(var(--accent-dark), 66%),
+      rgba(var(--accent-dark), 33%)
+    );
+    padding: 1.5rem;
+    border-radius: 8px;
+  }
+  .instructions code {
+    font-size: 0.8em;
+    font-weight: bold;
+    background: rgba(var(--accent-light), 12%);
+    color: rgb(var(--accent-light));
+    border-radius: 4px;
+    padding: 0.3em 0.4em;
+  }
+  .instructions strong {
+    color: rgb(var(--accent-light));
+  }
+  .link-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    gap: 2rem;
+    padding: 0;
+  }
+</style>
